@@ -1,6 +1,6 @@
 //Maya ASCII 2027 scene
 //Name: vase.ma
-//Last modified: Thu, Sep 17, 2026 09:26:06 PM
+//Last modified: Thu, Sep 17, 2026 09:27:59 PM
 //Codeset: 1252
 requires maya "2027";
 requires "stereoCamera" "10.0";
@@ -14,7 +14,7 @@ fileInfo "product" "Maya 2027";
 fileInfo "version" "2027";
 fileInfo "cutIdentifier" "202607171511-52c21617ee";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26200)";
-fileInfo "UUID" "11A2F107-4459-B9DD-901E-24831E49A748";
+fileInfo "UUID" "531614A3-475D-EFC9-EC25-A686A0E4A1BE";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "7105A3D2-4D80-CAE3-03FC-85B002466B48";
@@ -78,7 +78,7 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 90.659545791408007;
+	setAttr ".ow" 71.359016633731713;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
